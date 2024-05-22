@@ -47,9 +47,9 @@ def app():
         # Display the original and masked images
         st.title("Original and Masked Images")
         st.header("Original Image")
-        st.image(img, use_column_width=False)
+        st.image(img, width=400)
         st.header("Masked Image")
-        st.image(masked_img, use_column_width=False)
+        st.image(masked_img, width=400)
 
 
 if __name__ == "__main__":
